@@ -1,12 +1,4 @@
 <sc-configuration>
-    <!---
-      Example:
-      <controller>
-          <action name="login" class="water.ustc.action.LoginAction" method="handleLogin">
-              <result name="success" type="forward" value="pages/welcome.jsp"></result>
-          </action>
-       </controller>
-       -->
     <controller>
         <action name="login" class="ustc.lzj.action.LoginAction" method="handleLogin">
             <result name="success" type="forward" value="pages/welcome.jsp"></result>

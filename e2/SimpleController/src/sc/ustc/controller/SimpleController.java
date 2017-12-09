@@ -5,7 +5,8 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
-import java.io.PrintWriter;
+import java.lang.reflect.Method;
+
 
 public class SimpleController extends HttpServlet {
     @Override
@@ -21,7 +22,30 @@ public class SimpleController extends HttpServlet {
         String actionName = servletPath.replaceAll("\\.sc","").substring(1);
         //解析action
         try {
-            ParseAction.parse(req,resp,actionName);
+            Action action = ActionParser.parse(req,resp,actionName);
+            if(action == null){
+                resp.sendRedirect(req.getServletContext().getContextPath()+ "/pages/error_action.jsp");
+                return;
+            }
+            Class cls = Class.forName(action.getClassName());
+            Object actObj = cls.newInstance();
+            Method method = cls.getMethod(action.getMethodName(), HttpServletRequest.class);
+            String Value = (String)method.invoke(actObj,req);
+
+            for(Result result : action.getResults()){
+                if(result.getName().equals(Value)){
+                    String contextPath = req.getContextPath();
+                    System.out.println("contextPath= "+contextPath);
+                    if(result.getType().equals("redirect")){
+                        resp.sendRedirect(contextPath+"/"+result.getValue());
+                        return;
+                    }
+                    else if(result.getType().equals("forward")){
+                        req.getRequestDispatcher("/"+result.getValue()).forward(req,resp);
+                        return;
+                    }
+                }
+            }
         } catch (Exception e) {
             e.printStackTrace();
         }
