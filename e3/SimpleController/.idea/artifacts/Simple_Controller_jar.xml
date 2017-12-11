@@ -1,0 +1,12 @@
+<component name="ArtifactManager">
+  <artifact build-on-make="true" name="Simple-Controller:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/SimpleController_jar</output-path>
+    <root id="root">
+      <element id="archive" name="Simple-Controller.jar">
+        <element id="module-output" name="SimpleController" />
+      </element>
+      <element id="file-copy" path="C:/Program Files/Apache Software Foundation/Tomcat 8.5/lib/jsp-api.jar" />
+      <element id="file-copy" path="C:/Program Files/Apache Software Foundation/Tomcat 8.5/lib/servlet-api.jar" />
+    </root>
+  </artifact>
+</component>
