@@ -3,11 +3,14 @@
     <xsl:template match="/">
         <html>
             <head>
-                <h1>
+                <title>
                 <xsl:apply-templates select="view/head/title"/>
-                </h1>
+                </title>
             </head>
             <body>
+                <h1>
+                    <xsl:apply-templates select="view/head/title"/>
+                </h1>
                 <xsl:apply-templates select="view/body/form"/>
             </body>
         </html>
