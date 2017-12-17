@@ -12,13 +12,10 @@ import java.util.ArrayList;
 
 
 public class ActionParser {
-
-
-
     public static ArrayList<Action> parse() throws Exception{
         ArrayList<Action> actions = new ArrayList<>();
         //读取xml路径并使用DOM解析
-        String file = Path.getInstance().getXMLPath();
+        String file = Path.getInstance().getXmlPath();
         DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
         DocumentBuilder builder = factory.newDocumentBuilder();
         Document doc = builder.parse(file);
@@ -86,5 +83,4 @@ public class ActionParser {
         }
         return true;
     }
-
 }

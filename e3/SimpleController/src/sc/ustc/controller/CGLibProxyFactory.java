@@ -2,6 +2,7 @@ package sc.ustc.controller;
 
 import net.sf.cglib.proxy.Enhancer;
 
+//代理工厂
 public class CGLibProxyFactory {
     public static Object getProxy(Class clazz,Action action) throws ClassNotFoundException, NoSuchMethodException, InstantiationException, IllegalAccessException {
         Enhancer enhancer = new Enhancer();

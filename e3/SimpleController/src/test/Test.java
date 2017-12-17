@@ -1,18 +1,17 @@
 package test;
 
-import sc.ustc.controller.*;
+import net.sf.cglib.proxy.Enhancer;
 
-import java.lang.reflect.InvocationTargetException;
-import java.lang.reflect.Method;
-import java.util.ArrayList;
-import java.util.List;
 
 public class Test {
     public static void main(String[] args) throws Exception {
-        Path.getInstance().setXMLPath("C:\\Users\\lzjwlt\\Desktop\\temp\\j2ee\\E3\\UseSC\\src\\controller.xml");
-        List interceptors = InterceptorParser.parse();
-        Config config = Config.getInstance();
-        System.out.println(interceptors);
+        CGLibProxy cgLibProxy = new CGLibProxy();
+        Enhancer enhancer = new Enhancer();
+        enhancer.setSuperclass(Cat.class);
+        enhancer.setCallback(cgLibProxy);
+        Cat cat = (Cat)enhancer.create();
+        cat.miao();
+
 
     }
 }

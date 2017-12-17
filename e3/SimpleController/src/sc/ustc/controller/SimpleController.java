@@ -22,7 +22,9 @@ public class SimpleController extends HttpServlet {
     @Override
     protected synchronized void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         resp.setContentType("text/html;charset=utf-8");
-        Path.getInstance().setXMLPath(req.getServletContext().getRealPath("/WEB-INF/classes/controller.xml"));
+        //设置Path
+        Path.getInstance().setXmlPath(req.getServletContext().getRealPath("/WEB-INF/classes/controller.xml"));
+        Path.getInstance().setLogfilePath(req.getServletContext().getRealPath("/WEB-INF/log/log.xml"));
         Path.getInstance().setContextPath(req.getContextPath());
         //获取action名称
         String servletPath = req.getServletPath();
@@ -66,6 +68,5 @@ public class SimpleController extends HttpServlet {
                 }
             }
         }
-
     }
 }

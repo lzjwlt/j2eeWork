@@ -8,6 +8,7 @@
             <result name="failure" type="redirect" value="pages/failure.jsp"></result>
         </action>
         <action name="register" class="ustc.lzj.action.RegisterAction" method="handleRegister">
+            <interceptor-ref name="log"></interceptor-ref>
             <result name="success" type="forward" value="pages/register_success.jsp"></result>
             <result name="failure" type="redirect" value="pages/failure.jsp"></result>
         </action>

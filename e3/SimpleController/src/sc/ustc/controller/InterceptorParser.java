@@ -19,7 +19,8 @@ public class InterceptorParser {
 
     public static ArrayList<Interceptor> parse() throws Exception{
         ArrayList<Interceptor>interceptors = new ArrayList<>();
-        String file = Path.getInstance().getXMLPath();
+        //配置文件
+        String file = Path.getInstance().getXmlPath();
         DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
         DocumentBuilder builder = factory.newDocumentBuilder();
         Document doc = builder.parse(file);

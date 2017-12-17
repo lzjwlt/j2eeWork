@@ -2,6 +2,7 @@ package ustc.lzj.interceptor;
 
 import org.w3c.dom.Document;
 import org.w3c.dom.Node;
+import sc.ustc.controller.Path;
 
 import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
@@ -25,7 +26,7 @@ public class LogInterceptor {
     private String actionName;
     private String resultName;
 
-    private String filePath="C:\\log\\log.xml";
+    private String filePath= Path.getInstance().getLogfilePath();
 
     public  void preAction(){
 
