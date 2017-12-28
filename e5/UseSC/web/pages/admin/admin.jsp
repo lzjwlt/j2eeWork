@@ -1,7 +1,3 @@
-<%@ page import="ustc.lzj.PasswdMap" %>
-<%@ page import="java.util.HashMap" %>
-<%@ page import="java.util.Iterator" %>
-<%@ page import="java.util.Map" %>
 <%@ page import="ustc.lzj.UserBean" %>
 <%@ page import="java.sql.SQLException" %>
 <%@ page import="java.sql.Statement" %>
@@ -33,7 +29,7 @@
             "<table border=\"1\">\n" +
             "  <tr>\n" +
             "    <th> &nbsp; id &nbsp; </th>\n" +
-            "    <th> &nbsp; UserNam&nbsp; </th>\n" +
+            "    <th> &nbsp; UserName &nbsp; </th>\n" +
             "    <th> &nbsp; Password &nbsp; </th>\n" +
             "  </tr>\n");
 
@@ -57,6 +53,19 @@
     }
     out.println("</table>");
 %>
+<br/>
+<h3>删除用户</h3>
+<form action="pages/admin/deluser.jsp" method="post">
+    请输入要删除的账号<input type="number" name="id"/>
+    <input type="submit" value="删除"/>
+</form>
+<br/>
+<h3>修改密码</h3>
+<form action="pages/admin/modifypass.jsp" method="post">
+    ID:<input type="number" name="id"/>
+    新密码：<input type="password" name="pass"/>
+    <input type="submit" value="修改密码"/>
+</form>
 <br/>
 <input type="button" value="返回主页" onclick="window.location.href='<%=request.getContextPath()%>'" />
 </body>

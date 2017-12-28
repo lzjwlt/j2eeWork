@@ -1,6 +1,5 @@
 package ustc.lzj.action;
 
-import ustc.lzj.PasswdMap;
 import ustc.lzj.UserBean;
 
 import javax.servlet.http.HttpServletRequest;

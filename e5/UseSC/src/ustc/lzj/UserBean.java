@@ -30,9 +30,10 @@ public class UserBean {
         userDAO.openDBConnection();
         UserBean queryBean = (UserBean) userDAO.query("SELECT * FROM USER WHERE USERNAME="+name);
         if(queryBean.userName != null || queryBean.userPass!=null){
+            userDAO.closeDBConnection();
             return false;
         }
-        String sql = String.format("INSERT INTO USER(username,userpass) VALUES ( %s , %s)", name,pass);
+        String sql = String.format("INSERT INTO USER(username,userpass) VALUES ('%s' , '%s')", name,pass);
         if(userDAO.insert(sql) == true)
         {
             userDAO.closeDBConnection();
