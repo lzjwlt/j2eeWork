@@ -2,7 +2,8 @@
 <%@ page import="java.sql.SQLException" %>
 <%@ page import="java.sql.Statement" %>
 <%@ page import="java.sql.ResultSet" %>
-<%@ page import="java.sql.Connection" %><%--
+<%@ page import="java.sql.Connection" %>
+<%@ page import="sc.ustc.controller.Path" %><%--
   Created by IntelliJ IDEA.
   User: lzjwlt
   Date: 2017/12/4
@@ -55,13 +56,13 @@
 %>
 <br/>
 <h3>删除用户</h3>
-<form action="pages/admin/deluser.jsp" method="post">
-    请输入要删除的账号<input type="number" name="id"/>
+<form action="<%=Path.getInstance().getContextPath()%>/pages/admin/deluser.jsp" method="post">
+    请输入要删除的账号ID:<input type="number" name="id"/>
     <input type="submit" value="删除"/>
 </form>
 <br/>
 <h3>修改密码</h3>
-<form action="pages/admin/modifypass.jsp" method="post">
+<form action="<%=Path.getInstance().getContextPath()%>/pages/admin/modifypass.jsp" method="post">
     ID:<input type="number" name="id"/>
     新密码：<input type="password" name="pass"/>
     <input type="submit" value="修改密码"/>

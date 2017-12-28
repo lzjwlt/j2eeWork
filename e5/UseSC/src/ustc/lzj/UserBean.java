@@ -13,7 +13,7 @@ public class UserBean {
 
     public boolean signIn(String name, String pass){
         userDAO.openDBConnection();
-        UserBean queryBean = (UserBean) userDAO.query("SELECT * FROM USER WHERE USERNAME="+name);
+        UserBean queryBean = (UserBean) userDAO.query("SELECT * FROM USER WHERE USERNAME='"+name+"\'");
         if(queryBean == null){
             userDAO.closeDBConnection();
             return false;
@@ -28,7 +28,7 @@ public class UserBean {
 
     public boolean signUp(String name, String pass){
         userDAO.openDBConnection();
-        UserBean queryBean = (UserBean) userDAO.query("SELECT * FROM USER WHERE USERNAME="+name);
+        UserBean queryBean = (UserBean) userDAO.query (String.format("SELECT * FROM USER WHERE USERNAME='%s'",name));
         if(queryBean.userName != null || queryBean.userPass!=null){
             userDAO.closeDBConnection();
             return false;
