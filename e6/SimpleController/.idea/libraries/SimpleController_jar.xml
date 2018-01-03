@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="SimpleController_jar">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/out/artifacts/SimpleController_jar/jsp-api.jar!/" />
+      <root url="jar://$PROJECT_DIR$/out/artifacts/SimpleController_jar/Simple-Controller.jar!/" />
+      <root url="jar://$PROJECT_DIR$/out/artifacts/SimpleController_jar/servlet-api.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

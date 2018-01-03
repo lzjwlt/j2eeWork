@@ -1,0 +1,12 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="SimpleController">
+    <output-path>$PROJECT_DIR$/out/artifacts/SimpleController</output-path>
+    <root id="archive" name="SimpleController.war">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="e5" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
