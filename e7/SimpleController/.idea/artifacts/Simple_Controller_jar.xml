@@ -1,0 +1,10 @@
+<component name="ArtifactManager">
+  <artifact build-on-make="true" name="Simple-Controller:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/SimpleController_jar</output-path>
+    <root id="root">
+      <element id="archive" name="Simple-Controller.jar">
+        <element id="module-output" name="SimpleController" />
+      </element>
+    </root>
+  </artifact>
+</component>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet type="text/xsl" href="xmlToHtml.xsl" ?>
+<view>
+    <head>
+        <title>a viewer in MVC</title>
+    </head>
+    <body>
+        <form>
+            <name>logoutForm</name>
+            <action>logout.sc</action>
+            <method>post</method>
+            <textView>
+                <name>userName</name>
+                <label>Login Name:</label>
+                <value>lzj</value>
+            </textView>
+            <textView>
+                <name>userAge</name>
+                <label>Age:</label>
+                <value>23</value>
+            </textView>
+            <submitView>
+                <name>logoutButton</name>
+                <label>Logout</label>
+            </submitView>
+            <buttonView>
+                <name>BackButton</name>
+                <label>BackHome</label>
+                <onclick>./</onclick>
+            </buttonView>
+        </form>
+    </body>
+</view>
