@@ -39,7 +39,6 @@ public class LazyProxy implements MethodInterceptor {
             value = rs.getString(1);
         }
         return value;
-
         //
     }
 }

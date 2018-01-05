@@ -20,11 +20,9 @@
       <file leaf-file-name="BeanParser.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/sc/ustc/di/BeanParser.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="113">
-              <caret line="24" column="63" lean-forward="false" selection-start-line="24" selection-start-column="63" selection-end-line="24" selection-end-column="63" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="299">
+              <caret line="34" column="3" lean-forward="false" selection-start-line="34" selection-start-column="3" selection-end-line="34" selection-end-column="3" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -32,117 +30,59 @@
       <file leaf-file-name="DIHandler.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/sc/ustc/di/DIHandler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="491">
-              <caret line="37" column="34" lean-forward="false" selection-start-line="37" selection-start-column="34" selection-end-line="37" selection-end-column="34" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Test.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/sc/ustc/di/test/Test.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="20" column="18" lean-forward="false" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UserBean.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/sc/ustc/di/test/UserBean.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="8" column="21" lean-forward="false" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
+            <state relative-caret-position="484">
+              <caret line="63" column="42" lean-forward="false" selection-start-line="63" selection-start-column="42" selection-end-line="63" selection-end-column="42" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LoginAction.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/sc/ustc/di/test/LoginAction.java">
+      <file leaf-file-name="Config.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/sc/ustc/controller/Config.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="231">
-              <caret line="11" column="35" lean-forward="false" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
-              <folding>
-                <element signature="e#258#259#0" expanded="true" />
-                <element signature="e#308#309#0" expanded="true" />
-                <element signature="e#348#349#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SimpleController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/sc/ustc/controller/SimpleController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="230">
-              <caret line="57" column="83" lean-forward="false" selection-start-line="57" selection-start-column="83" selection-end-line="57" selection-end-column="83" />
+            <state relative-caret-position="355">
+              <caret line="18" column="46" lean-forward="false" selection-start-line="18" selection-start-column="46" selection-end-line="18" selection-end-column="46" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BeanParser.class" pinned="false" current-in-tab="false">
-        <entry file="jar://$PROJECT_DIR$/out/artifacts/SimpleController_jar/Simple-Controller.jar!/sc/ustc/di/BeanParser.class">
+      <file leaf-file-name="LazyProxyFactory.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/sc/ustc/dao/LazyProxyFactory.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="273">
+              <caret line="13" column="42" lean-forward="false" selection-start-line="13" selection-start-column="42" selection-end-line="13" selection-end-column="42" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LazyProxy.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/sc/ustc/dao/LazyProxy.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="714">
+              <caret line="40" column="21" lean-forward="false" selection-start-line="40" selection-start-column="21" selection-end-line="40" selection-end-column="21" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DAO.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/sc/ustc/dao/DAO.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="126">
-              <caret line="20" column="13" lean-forward="false" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
-              <folding>
-                <marker date="1515142228830" expanded="false" signature="0:104" ph="/.../" />
-                <marker date="1515142228830" expanded="false" signature="134:540" ph="..." />
-                <marker date="1515142228830" expanded="true" signature="740:747" ph="{}" />
-                <marker date="1515142228830" expanded="true" signature="846:2311" ph="{...}" />
-              </folding>
+              <caret line="6" column="32" lean-forward="false" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="32" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Path.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/sc/ustc/controller/Path.java">
+      <file leaf-file-name="InterceptorParser.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/sc/ustc/controller/InterceptorParser.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="10" column="22" lean-forward="false" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
-              <folding>
-                <element signature="e#233#234#0" expanded="true" />
-                <element signature="e#262#263#0" expanded="true" />
-                <element signature="e#306#307#0" expanded="true" />
-                <element signature="e#342#343#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Bean.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/sc/ustc/di/Bean.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="246">
-              <caret line="17" column="4" lean-forward="false" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="4" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#413#414#0" expanded="true" />
-                <element signature="e#448#449#0" expanded="true" />
-                <element signature="e#492#493#0" expanded="true" />
-                <element signature="e#532#533#0" expanded="true" />
-                <element signature="e#570#571#0" expanded="true" />
-                <element signature="e#608#609#0" expanded="true" />
-                <element signature="e#658#659#0" expanded="true" />
-                <element signature="e#704#705#0" expanded="true" />
-                <element signature="e#739#740#0" expanded="true" />
-                <element signature="e#764#765#0" expanded="true" />
-                <element signature="e#800#801#0" expanded="true" />
-                <element signature="e#828#829#0" expanded="true" />
-                <element signature="e#860#861#0" expanded="true" />
-                <element signature="e#888#889#0" expanded="true" />
-                <element signature="e#930#931#0" expanded="true" />
-                <element signature="e#964#965#0" expanded="true" />
-                <element signature="e#1002#1003#0" expanded="true" />
-                <element signature="e#1031#1032#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="420">
+              <caret line="30" column="73" lean-forward="false" selection-start-line="29" selection-start-column="19" selection-end-line="30" selection-end-column="75" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -150,11 +90,31 @@
       <file leaf-file-name="Conversation.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/sc/ustc/dao/Conversation.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="42">
-              <caret line="5" column="25" lean-forward="false" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
+            <state relative-caret-position="-63">
+              <caret line="159" column="21" lean-forward="false" selection-start-line="159" selection-start-column="21" selection-end-line="159" selection-end-column="21" />
               <folding>
-                <element signature="method#query#1;class#Conversation#0" expanded="false" />
+                <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Result.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/sc/ustc/controller/Result.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="42">
+              <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Interceptor.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/sc/ustc/controller/Interceptor.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="252">
+              <caret line="12" column="17" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -173,6 +133,8 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>invoke</find>
+      <find>System.out.p</find>
+      <find>System</find>
     </findStrings>
   </component>
   <component name="GradleLocalSettings">
@@ -200,7 +162,6 @@
         <option value="$PROJECT_DIR$/src/sc/ustc/controller/TestProxy.java" />
         <option value="$PROJECT_DIR$/src/sc/ustc/controller/TestFactory.java" />
         <option value="$PROJECT_DIR$/src/test/LogInterceptor.java" />
-        <option value="$PROJECT_DIR$/src/sc/ustc/controller/ProxyHandler.java" />
         <option value="$PROJECT_DIR$/src/sc/ustc/controller/PublicData.java" />
         <option value="$PROJECT_DIR$/src/sc/ustc/controller/Action.java" />
         <option value="$PROJECT_DIR$/src/test/CGLibProxy.java" />
@@ -211,28 +172,29 @@
         <option value="$PROJECT_DIR$/src/sc/ustc/controller/InterceptorParser.java" />
         <option value="$PROJECT_DIR$/src/sc/ustc/dao/DAO.java" />
         <option value="$PROJECT_DIR$/src/sc/ustc/dao/BaseDAO.java" />
-        <option value="$PROJECT_DIR$/src/sc/ustc/controller/ActionParser.java" />
         <option value="$PROJECT_DIR$/src/sc/ustc/dao/UserBean.java" />
         <option value="$PROJECT_DIR$/src/UserBean.java" />
         <option value="$PROJECT_DIR$/src/test/Cat.java" />
         <option value="$PROJECT_DIR$/src/test/Dog.java" />
         <option value="$PROJECT_DIR$/src/test/Test.java" />
         <option value="$PROJECT_DIR$/src/sc/ustc/dao/Clazz.java" />
-        <option value="$PROJECT_DIR$/src/sc/ustc/dao/LazyProxyFactory.java" />
-        <option value="$PROJECT_DIR$/src/sc/ustc/dao/LazyProxy.java" />
         <option value="$PROJECT_DIR$/src/test/UserBean.java" />
         <option value="$PROJECT_DIR$/src/sc/ustc/dao/Test.java" />
-        <option value="$PROJECT_DIR$/src/sc/ustc/dao/Conversation.java" />
         <option value="$PROJECT_DIR$/src/sc/ustc/dao/Configuration.java" />
         <option value="$PROJECT_DIR$/src/sc/ustc/di/Field.java" />
         <option value="$PROJECT_DIR$/src/sc/ustc/di/Bean.java" />
         <option value="$PROJECT_DIR$/src/sc/ustc/di/Test.java" />
-        <option value="$PROJECT_DIR$/src/sc/ustc/di/BeanParser.java" />
-        <option value="$PROJECT_DIR$/src/sc/ustc/controller/Path.java" />
         <option value="$PROJECT_DIR$/src/sc/ustc/di/Test/Test.java" />
         <option value="$PROJECT_DIR$/src/sc/ustc/di/test/LoginAction.java" />
         <option value="$PROJECT_DIR$/src/sc/ustc/di/test/Test.java" />
+        <option value="$PROJECT_DIR$/src/sc/ustc/controller/Path.java" />
+        <option value="$PROJECT_DIR$/src/sc/ustc/di/BeanParser.java" />
         <option value="$PROJECT_DIR$/src/sc/ustc/controller/SimpleController.java" />
+        <option value="$PROJECT_DIR$/src/sc/ustc/controller/ActionParser.java" />
+        <option value="$PROJECT_DIR$/src/sc/ustc/controller/ProxyHandler.java" />
+        <option value="$PROJECT_DIR$/src/sc/ustc/dao/LazyProxyFactory.java" />
+        <option value="$PROJECT_DIR$/src/sc/ustc/dao/LazyProxy.java" />
+        <option value="$PROJECT_DIR$/src/sc/ustc/dao/Conversation.java" />
         <option value="$PROJECT_DIR$/src/sc/ustc/di/DIHandler.java" />
       </list>
     </option>
@@ -303,10 +265,10 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="AndroidView" />
-      <pane id="PackagesPane" />
       <pane id="Scratches" />
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -337,13 +299,14 @@
               <item name="SimpleController" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="ustc" type="462c0819:PsiDirectoryNode" />
-              <item name="di" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SimpleController" type="b2602c69:ProjectViewProjectNode" />
               <item name="SimpleController" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="ustc" type="462c0819:PsiDirectoryNode" />
+              <item name="di" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SimpleController" type="b2602c69:ProjectViewProjectNode" />
@@ -383,7 +346,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Test (1)">
+  <component name="RunManager" selected="Tomcat Server.Unnamed">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -644,15 +607,13 @@
       <option name="PROGRAM_PARAMETERS" />
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
-    <list size="3">
+    <list size="2">
       <item index="0" class="java.lang.String" itemvalue="Tomcat Server.Unnamed" />
       <item index="1" class="java.lang.String" itemvalue="Application.Test" />
-      <item index="2" class="java.lang.String" itemvalue="Application.Test (1)" />
     </list>
     <recent_temporary>
-      <list size="2">
-        <item index="0" class="java.lang.String" itemvalue="Application.Test (1)" />
-        <item index="1" class="java.lang.String" itemvalue="Application.Test" />
+      <list size="1">
+        <item index="0" class="java.lang.String" itemvalue="Application.Test" />
       </list>
     </recent_temporary>
   </component>
@@ -696,14 +657,16 @@
       <workItem from="1514952182715" duration="28748000" />
       <workItem from="1515046618376" duration="3711000" />
       <workItem from="1515132210291" duration="8673000" />
+      <workItem from="1515173089466" duration="1074000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="161184000" />
+    <option name="totallyTimeSpent" value="162258000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="110" y="24" width="1234" height="977" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -719,7 +682,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2795786" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2795786" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24941725" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -770,53 +733,11 @@
     <entry file="file://$PROJECT_DIR$/src/sc/ustc/controller/TestFactory.java" />
     <entry file="file://$PROJECT_DIR$/src/test/LogInterceptor.java" />
     <entry file="file://$PROJECT_DIR$/src/test/TestMethod.java" />
-    <entry file="file://$PROJECT_DIR$/src/sc/ustc/controller/Result.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="37" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sc/ustc/controller/Action.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="383">
-          <caret line="26" column="0" lean-forward="true" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/sc/ustc/dao/JDBC.java" />
-    <entry file="file://$PROJECT_DIR$/src/sc/ustc/controller/Interceptor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="12" column="17" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sc/ustc/controller/InterceptorParser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="30" column="73" lean-forward="false" selection-start-line="29" selection-start-column="19" selection-end-line="30" selection-end-column="75" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/sc/ustc/dao/BaseDAO.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="378">
           <caret line="26" column="50" lean-forward="false" selection-start-line="26" selection-start-column="49" selection-end-line="26" selection-end-column="50" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sc/ustc/controller/ProxyHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="693">
-          <caret line="37" column="28" lean-forward="false" selection-start-line="37" selection-start-column="28" selection-end-line="37" selection-end-column="28" />
           <folding />
         </state>
       </provider>
@@ -873,45 +794,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sc/ustc/controller/CGLibProxyFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="7" column="5" lean-forward="false" selection-start-line="6" selection-start-column="2" selection-end-line="11" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/CGLibProxy.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="84">
           <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sc/ustc/controller/Config.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="341">
-          <caret line="18" column="46" lean-forward="false" selection-start-line="18" selection-start-column="46" selection-end-line="18" selection-end-column="46" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sc/ustc/controller/CGLibProxy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="22" column="35" lean-forward="false" selection-start-line="22" selection-start-column="29" selection-end-line="22" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sc/ustc/dao/LazyProxy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="693">
-          <caret line="39" column="9" lean-forward="false" selection-start-line="39" selection-start-column="9" selection-end-line="39" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -923,31 +810,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sc/ustc/dao/DAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="6" column="32" lean-forward="false" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/UserBean1.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="294">
           <caret line="14" column="24" lean-forward="false" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
-          <folding>
-            <element signature="e#271#272#0" expanded="true" />
-            <element signature="e#304#305#0" expanded="true" />
-            <element signature="e#332#333#0" expanded="true" />
-            <element signature="e#367#368#0" expanded="true" />
-            <element signature="e#398#399#0" expanded="true" />
-            <element signature="e#446#447#0" expanded="true" />
-            <element signature="e#486#487#0" expanded="true" />
-            <element signature="e#521#522#0" expanded="true" />
-            <element signature="e#552#553#0" expanded="true" />
-            <element signature="e#600#601#0" expanded="true" />
-            <element signature="e#640#641#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -955,14 +822,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1050">
           <caret line="63" column="44" lean-forward="false" selection-start-line="63" selection-start-column="44" selection-end-line="63" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sc/ustc/dao/LazyProxyFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="4" column="3" lean-forward="false" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
           <folding />
         </state>
       </provider>
@@ -987,50 +846,11 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sc/ustc/di/Field.java" />
-    <entry file="file://$PROJECT_DIR$/src/sc/ustc/controller/ActionParser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="19" column="30" lean-forward="false" selection-start-line="18" selection-start-column="8" selection-end-line="21" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sc/ustc/controller/Path.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="10" column="22" lean-forward="false" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
-          <folding>
-            <element signature="e#233#234#0" expanded="true" />
-            <element signature="e#262#263#0" expanded="true" />
-            <element signature="e#306#307#0" expanded="true" />
-            <element signature="e#342#343#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/ATest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="8" column="18" lean-forward="false" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sc/ustc/dao/Conversation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="5" column="25" lean-forward="false" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
-          <folding>
-            <element signature="method#query#1;class#Conversation#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/ATest.java" />
     <entry file="jar://$PROJECT_DIR$/out/artifacts/SimpleController_jar/Simple-Controller.jar!/sc/ustc/di/Test.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
           <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1039,47 +859,37 @@
         <state relative-caret-position="231">
           <caret line="11" column="35" lean-forward="false" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
           <folding>
-            <element signature="e#258#259#0" expanded="true" />
-            <element signature="e#308#309#0" expanded="true" />
-            <element signature="e#348#349#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sc/ustc/di/BeanParser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="113">
-          <caret line="24" column="63" lean-forward="false" selection-start-line="24" selection-start-column="63" selection-end-line="24" selection-end-column="63" />
-          <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#258#259#0" expanded="false" />
+            <element signature="e#308#309#0" expanded="false" />
+            <element signature="e#348#349#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sc/ustc/di/Bean.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="246">
+        <state relative-caret-position="336">
           <caret line="17" column="4" lean-forward="false" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="4" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#413#414#0" expanded="true" />
-            <element signature="e#448#449#0" expanded="true" />
-            <element signature="e#492#493#0" expanded="true" />
-            <element signature="e#532#533#0" expanded="true" />
-            <element signature="e#570#571#0" expanded="true" />
-            <element signature="e#608#609#0" expanded="true" />
-            <element signature="e#658#659#0" expanded="true" />
-            <element signature="e#704#705#0" expanded="true" />
-            <element signature="e#739#740#0" expanded="true" />
-            <element signature="e#764#765#0" expanded="true" />
-            <element signature="e#800#801#0" expanded="true" />
-            <element signature="e#828#829#0" expanded="true" />
-            <element signature="e#860#861#0" expanded="true" />
-            <element signature="e#888#889#0" expanded="true" />
-            <element signature="e#930#931#0" expanded="true" />
-            <element signature="e#964#965#0" expanded="true" />
-            <element signature="e#1002#1003#0" expanded="true" />
-            <element signature="e#1031#1032#0" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#413#414#0" expanded="false" />
+            <element signature="e#448#449#0" expanded="false" />
+            <element signature="e#492#493#0" expanded="false" />
+            <element signature="e#532#533#0" expanded="false" />
+            <element signature="e#570#571#0" expanded="false" />
+            <element signature="e#608#609#0" expanded="false" />
+            <element signature="e#658#659#0" expanded="false" />
+            <element signature="e#704#705#0" expanded="false" />
+            <element signature="e#739#740#0" expanded="false" />
+            <element signature="e#764#765#0" expanded="false" />
+            <element signature="e#800#801#0" expanded="false" />
+            <element signature="e#828#829#0" expanded="false" />
+            <element signature="e#860#861#0" expanded="false" />
+            <element signature="e#888#889#0" expanded="false" />
+            <element signature="e#930#931#0" expanded="false" />
+            <element signature="e#964#965#0" expanded="false" />
+            <element signature="e#1002#1003#0" expanded="false" />
+            <element signature="e#1031#1032#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1089,20 +899,20 @@
         <state relative-caret-position="420">
           <caret line="20" column="18" lean-forward="false" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="jar://$PROJECT_DIR$/out/artifacts/SimpleController_jar/Simple-Controller.jar!/sc/ustc/di/BeanParser.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="20" column="13" lean-forward="false" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+        <state relative-caret-position="147">
+          <caret line="21" column="13" lean-forward="false" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
           <folding>
-            <marker date="1515142228830" expanded="false" signature="0:104" ph="/.../" />
-            <marker date="1515142228830" expanded="false" signature="134:540" ph="..." />
-            <marker date="1515142228830" expanded="true" signature="740:747" ph="{}" />
-            <marker date="1515142228830" expanded="true" signature="846:2311" ph="{...}" />
+            <marker date="1515173784000" expanded="false" signature="0:104" ph="/.../" />
+            <marker date="1515173784000" expanded="false" signature="134:526" ph="..." />
+            <marker date="1515173784000" expanded="true" signature="752:759" ph="{}" />
+            <marker date="1515173784000" expanded="true" signature="858:2323" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -1117,19 +927,146 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sc/ustc/controller/SimpleController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="57" column="83" lean-forward="false" selection-start-line="57" selection-start-column="83" selection-end-line="57" selection-end-column="83" />
+        <state relative-caret-position="299">
+          <caret line="59" column="24" lean-forward="false" selection-start-line="59" selection-start-column="12" selection-end-line="59" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sc/ustc/controller/Action.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="551">
+          <caret line="42" column="0" lean-forward="true" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sc/ustc/controller/ActionParser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-143">
+          <caret line="34" column="67" lean-forward="false" selection-start-line="34" selection-start-column="67" selection-end-line="34" selection-end-column="67" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sc/ustc/controller/CGLibProxy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="22" column="35" lean-forward="false" selection-start-line="22" selection-start-column="29" selection-end-line="22" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sc/ustc/controller/CGLibProxyFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="7" column="5" lean-forward="false" selection-start-line="6" selection-start-column="2" selection-end-line="11" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sc/ustc/controller/ProxyHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="29" column="56" lean-forward="false" selection-start-line="29" selection-start-column="56" selection-end-line="29" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sc/ustc/controller/Path.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="9" column="11" lean-forward="false" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
+          <folding>
+            <element signature="e#315#316#0" expanded="true" />
+            <element signature="e#346#347#0" expanded="true" />
+            <element signature="e#379#380#0" expanded="true" />
+            <element signature="e#408#409#0" expanded="true" />
+            <element signature="e#452#453#0" expanded="true" />
+            <element signature="e#488#489#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sc/ustc/controller/InterceptorParser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="30" column="73" lean-forward="false" selection-start-line="29" selection-start-column="19" selection-end-line="30" selection-end-column="75" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sc/ustc/controller/Interceptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="12" column="17" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sc/ustc/controller/Config.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="355">
+          <caret line="18" column="46" lean-forward="false" selection-start-line="18" selection-start-column="46" selection-end-line="18" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sc/ustc/dao/LazyProxyFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="13" column="42" lean-forward="false" selection-start-line="13" selection-start-column="42" selection-end-line="13" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sc/ustc/dao/LazyProxy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="714">
+          <caret line="40" column="21" lean-forward="false" selection-start-line="40" selection-start-column="21" selection-end-line="40" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sc/ustc/dao/DAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="6" column="32" lean-forward="false" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sc/ustc/dao/Conversation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-63">
+          <caret line="159" column="21" lean-forward="false" selection-start-line="159" selection-start-column="21" selection-end-line="159" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sc/ustc/controller/Result.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sc/ustc/di/BeanParser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="34" column="3" lean-forward="false" selection-start-line="34" selection-start-column="3" selection-end-line="34" selection-end-column="3" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sc/ustc/di/DIHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="491">
-          <caret line="37" column="34" lean-forward="false" selection-start-line="37" selection-start-column="34" selection-end-line="37" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="484">
+          <caret line="63" column="42" lean-forward="false" selection-start-line="63" selection-start-column="42" selection-end-line="63" selection-end-column="42" />
+          <folding />
         </state>
       </provider>
     </entry>

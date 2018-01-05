@@ -28,12 +28,10 @@ public class ProxyHandler {
                 methods[1] = afterDoMethod;
             }
             intercptObjs.put(cls.newInstance(),methods);
-            System.out.println("size of hashmap:"+intercptObjs.size());
         }
     }
 
-    public void preDo() throws ClassNotFoundException, NoSuchMethodException, IllegalAccessException, InstantiationException, InvocationTargetException {
-        System.out.println("PRE_DO");
+    public void preDo() throws IllegalAccessException,  InvocationTargetException {
         for(Map.Entry<Object,Method[]> entry : intercptObjs.entrySet()){
             if(entry.getValue() [0] != null ){
                 Method preDoMethod = entry.getValue()[0];
@@ -43,7 +41,6 @@ public class ProxyHandler {
     }
 
     public void afterDo(String resultName) throws InvocationTargetException, IllegalAccessException {
-        System.out.println("AFTER_DO");
         for(Map.Entry<Object,Method[]> entry : intercptObjs.entrySet()){
             if(entry.getValue() [1] != null ){
                 Method afterDoMethod = entry.getValue()[1];

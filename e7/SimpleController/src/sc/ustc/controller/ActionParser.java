@@ -33,9 +33,6 @@ public class ActionParser {
                     String actionName = act.getAttribute("name");
                     String className = act.getAttribute("class");
                     String methodName = act.getAttribute("method");
-                    System.out.println(actionName);
-                    System.out.println(className);
-                    System.out.println(methodName);
                     //找到action
 //                    if (actName.equals(actionName)) {
                         //继续找interception-ref

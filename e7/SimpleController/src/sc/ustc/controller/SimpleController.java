@@ -29,6 +29,7 @@ public class SimpleController extends HttpServlet {
         Path.getInstance().setLogfilePath(req.getServletContext().getRealPath("/WEB-INF/log/log.xml"));
         Path.getInstance().setContextPath(req.getContextPath());
         Path.getInstance().setOrMappingPath(req.getServletContext().getRealPath("/WEB-INF/classes/or_mapping.xml"));
+        Path.getInstance().setDiPath(req.getServletContext().getRealPath("/WEB-INF/classes/di.xml"));
         //获取action名称
         String servletPath = req.getServletPath();
         String actionName = servletPath.replaceAll("\\.sc","").substring(1);
@@ -56,8 +57,7 @@ public class SimpleController extends HttpServlet {
 
             //依赖注入
             boolean diResult = DIHandler.dependencyInject(obj,action.getClassName());
-            System.out.println("di result: "+diResult);
-
+            System.out.println("dependency inject result: "+diResult);
             value = (String)method.invoke(obj,req);
         } catch (Exception e) {
             e.printStackTrace();
@@ -66,7 +66,6 @@ public class SimpleController extends HttpServlet {
         for(Result result : action.getResults()){
             if(result.getName().equals(value)){
                 String contextPath = Path.getInstance().getContextPath();
-                System.out.println("contextPath= "+contextPath);
                 if(result.getType().equals("redirect")){
                     resp.sendRedirect(contextPath+"/"+result.getValue());
                     return;

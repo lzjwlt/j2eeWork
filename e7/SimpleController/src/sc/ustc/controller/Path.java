@@ -7,6 +7,15 @@ public class Path {
     private String orMappingPath;
     private String diPath;
 
+    private Path() {
+    }
+
+    private static Path instance = new Path();
+
+    public static Path getInstance(){
+        return instance;
+    }
+
     public String getDiPath() {
         return diPath;
     }
@@ -23,8 +32,6 @@ public class Path {
         this.orMappingPath = orMappingPath;
     }
 
-    private static Path instance = new Path();
-
     public String getContextPath() {
         return contextPath;
     }
@@ -39,9 +46,6 @@ public class Path {
 
     public void setXmlPath(String XMLPath) {
         this.xmlPath = XMLPath;
-    }
-    public static Path getInstance(){
-        return instance;
     }
 
     public String getLogfilePath() {

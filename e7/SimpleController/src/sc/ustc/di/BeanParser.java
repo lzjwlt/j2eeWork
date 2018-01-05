@@ -5,6 +5,7 @@ import org.w3c.dom.Element;
 import org.w3c.dom.Node;
 import org.w3c.dom.NodeList;
 import org.xml.sax.SAXException;
+import sc.ustc.controller.Path;
 
 import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
@@ -21,7 +22,8 @@ import static sc.ustc.controller.ActionParser.isValidNode;
  * @Description :
  */
 public class BeanParser {
-    private static String file = "/Users/lzj/Projects/J2eeWork/e7/UseSC/src/di.xml";
+//    private static String file = "/Users/lzj/Projects/J2eeWork/e7/UseSC/src/di.xml";
+    private static String file = Path.getInstance().getDiPath();
     private static HashSet<Bean> beanHashSet = new HashSet<>();
 
     public static HashSet parse() throws ParserConfigurationException, IOException, SAXException {

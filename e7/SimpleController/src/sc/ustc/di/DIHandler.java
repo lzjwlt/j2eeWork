@@ -15,7 +15,7 @@ import java.util.List;
  * @author : Li Zhijun
  * @email : ustclzj@foxmail.com
  * @date : 2018/1/5 下午2:40
- * @description :
+ * @description : 处理依赖注入，使用内省机制
  */
 public class DIHandler {
     private static HashSet<Bean> beanHashSet ;
@@ -61,6 +61,7 @@ public class DIHandler {
                         }
                     }
                     try {
+                        //使用java内省机制进行依赖注入
                         PropertyDescriptor propertyDescriptor = new PropertyDescriptor(fieldName, Class.forName(bean.getClazz()));
                         Method methodSetBeanField = propertyDescriptor.getWriteMethod();
                         methodSetBeanField.invoke(subject, object);

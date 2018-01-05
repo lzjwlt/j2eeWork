@@ -11,7 +11,7 @@ import net.sf.cglib.proxy.Enhancer;
 public class LazyProxyFactory {
     public static Object getProxy(Class clazz, String table,
                                   String column, String idColumn,
-                                  int id) throws ClassNotFoundException, NoSuchMethodException, InstantiationException, IllegalAccessException {
+                                  int id)  {
         Enhancer enhancer = new Enhancer();
         enhancer.setSuperclass(clazz);
         enhancer.setCallback(new LazyProxy(table,column,idColumn,id));

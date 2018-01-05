@@ -155,12 +155,6 @@ public class Conversation {
                     String table = clazz.getTable();
                     try {
                         field.set(obj,LazyProxyFactory.getProxy(Object.class,table,column,idColumn,id));
-                    } catch (ClassNotFoundException e) {
-                        e.printStackTrace();
-                    } catch (NoSuchMethodException e) {
-                        e.printStackTrace();
-                    } catch (InstantiationException e) {
-                        e.printStackTrace();
                     } catch (IllegalAccessException e) {
                         e.printStackTrace();
                     }
