@@ -1,6 +1,8 @@
 package sc.ustc.controller;
 
 import net.sf.cglib.proxy.Enhancer;
+import sc.ustc.di.BeanParser;
+import sc.ustc.di.DIHandler;
 
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
@@ -34,6 +36,7 @@ public class SimpleController extends HttpServlet {
         Action action = null;
        for(Action thisAction:Config.getInstance().getActions()){
             if(actionName.equals(thisAction.getName())){
+                //找到action
                 action=thisAction;
             }
         }
@@ -50,6 +53,11 @@ public class SimpleController extends HttpServlet {
 //            Object obj = cls.newInstance();
             //代理
             Object obj = CGLibProxyFactory.getProxy(cls,action);
+
+            //依赖注入
+            boolean diResult = DIHandler.dependencyInject(obj,action.getClassName());
+            System.out.println("di result: "+diResult);
+
             value = (String)method.invoke(obj,req);
         } catch (Exception e) {
             e.printStackTrace();

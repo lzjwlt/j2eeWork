@@ -1,13 +1,12 @@
 package ustc.lzj.action;
 
-import ustc.lzj.PasswdMap;
+import sc.ustc.dao.Conversation;
 import ustc.lzj.UserBean;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpSession;
 import java.io.IOException;
 
-import static ustc.lzj.UserBean.signUp;
 
 public class RegisterAction {
     private String inputName ;
@@ -28,6 +27,18 @@ public class RegisterAction {
 
     public String getInputKey() {
         return inputKey;
+    }
+
+    private boolean signUp(String name, String pass){
+        UserBean queryBean = Conversation.query("username",name);
+        if(queryBean != null){
+            System.err.println("Username has already existed");
+            return false;
+        }
+        UserBean toInsert = new UserBean();
+        toInsert.setUserName(name);
+        toInsert.setUserPass(pass);
+        return Conversation.insert(toInsert,false) ;
     }
 
     public String handleRegister(HttpServletRequest req) throws IOException {

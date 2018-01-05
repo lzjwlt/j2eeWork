@@ -1,41 +1,67 @@
 package ustc.lzj.action;
 
-import com.sun.deploy.net.HttpRequest;
-import ustc.lzj.PasswdMap;
+import sc.ustc.dao.Conversation;
 import ustc.lzj.UserBean;
 
-import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpSession;
 import java.io.IOException;
 
-import static ustc.lzj.UserBean.signIn;
 
 public class LoginAction {
-    private String inputName;
-    private String inputKey;
+    private UserBean userBean;
+
+    private boolean signIn(){
+        /**
+         * @author : Li Zhijun
+         * @description :
+         * @paras   [name, pass]
+         * @date:   18/1/3 下午7:29
+         */
+        UserBean queryBean = Conversation.query("userName",userBean.getUserName().toString());
+        if(queryBean == null){
+            System.err.println("Username can't be found in db");
+            return false;
+        }
+        if(userBean.getUserPass().equals(queryBean.getUserPass().toString())){
+            return true;
+        }
+        return false;
+    }
 
 
     public String handleLogin(HttpServletRequest req) throws IOException {
-        inputName=req.getParameter("name");
-        inputKey=req.getParameter("password");
+        if(userBean == null){
+            System.err.println("null userBean");
+            return "failure";
+        }
+        userBean.setUserName(req.getParameter("name"));
+        userBean.setUserPass(req.getParameter("password"));
         System.out.println("invoke handleLogin:");
         HttpSession session = req.getSession();
 
-        if(inputKey==null || inputName==null){
+        if(userBean.getUserName()==null || userBean.getUserPass()==null){
             session.setAttribute("ErrorInfo","输入不能为空");
             return "failure";
         }
-        if(inputKey.trim().length()==0 || inputName.trim().length()==0){
+        if(userBean.getUserName().toString().trim().length()==0 || userBean.getUserPass().toString().trim().length()==0){
             session.setAttribute("ErrorInfo","输入不能为空");
             return "failure";
         }
-        if( signIn(inputName,inputKey)){
+        if( signIn()){
             return "success";
         }
         else{
             session.setAttribute("ErrorInfo","用户/密码不正确");
             return "failure";
         }
+    }
+
+    public UserBean getUserBean() {
+        return userBean;
+    }
+
+    public void setUserBean(UserBean userBean) {
+        this.userBean = userBean;
     }
 }
